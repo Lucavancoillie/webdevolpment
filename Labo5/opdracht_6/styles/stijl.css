@@ -15,12 +15,12 @@ p {
     font-size: 1.2em;
 
 }
-#p1{
+.rood{
     color: red;
 }
-#p2{
-    color: blue;
-}
-#p3{
+.groen{
     color: green;
+}
+.blauw{
+    color: blue;
 }
