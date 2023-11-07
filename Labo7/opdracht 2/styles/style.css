@@ -4,6 +4,8 @@ section>header {
     height: 80px;
     color: #EDF2F4;
     font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
 
     background-repeat: no-repeat;
 }
