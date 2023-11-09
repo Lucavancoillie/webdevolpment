@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+    text-align: left; width: 100%;
+    }
+
+table {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff; overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    }
+
+table td, table th {
+    padding: 5px 5px;
+    }
+
+table thead th {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #999934), color-stop(1, #237F1C) );
+    background: -moz-linear-gradient(center top, #999934 5%, #237F1C 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#999934', endColorstr='#237F1C');
+    background-color:#999934;
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 2px solid #000000; }
+
+table thead th:first-child {
+    border: none;
+    }
+
+table tbody td {
+    color: #00557F;
+    border-left: 3px solid #000000;
+    font-size: 15px;
+    font-weight: normal;
+    }
+
+table tbody .alt td {
+    background: #D9F4E0;
+    color: #275420;
+}
+
+table tbody td:first-child {
+    border-left: none;
+    }
+
+table tbody tr:last-child td {
+    border-bottom: none;
+    }
+
