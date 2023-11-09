@@ -4,19 +4,22 @@
     padding-bottom: 20px ;
     background-size: cover;
     }
+
 body {
     width: 95%;
     margin: 0 auto;
     padding-top: 10px;
+    }
 
-}
 nav {
     background-color: #3a3d3a;
-}
+    }
+
 nav a {
     color: chartreuse;
     text-decoration: none;
-}
+    margin-left: 5px;
+    }
 
 h1 {
     font-family: sans-serif, Arial;
@@ -26,21 +29,24 @@ h1 {
     margin-top: 10px;
     margin-left: 5px;
     padding-top: 35px;
-}
+    }
 .headerH1{
     color: white;
     font-size: 2.6em;
     margin-top: 0;
     text-decoration: none;
     padding-top: 0;
+    }
 
-
-}
 article {
     background-color: lightgrey;
     padding-bottom: 5px;
+    }
 
-}
 p {
+    margin-left: 5px;
+}
+
+footer {
     margin-left: 5px;
 }
