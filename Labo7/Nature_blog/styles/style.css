@@ -1,0 +1,46 @@
+#header{
+    background-repeat: no-repeat;
+    background-image: url("../../Images/header.jpg");
+    padding-bottom: 20px ;
+    background-size: cover;
+    }
+body {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+nav {
+    background-color: #3a3d3a;
+}
+nav a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: sans-serif, Arial;
+    color: #3a3d3a;
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-top: 35px;
+}
+.headerH1{
+    color: white;
+    font-size: 2.6em;
+    margin-top: 0;
+    text-decoration: none;
+    padding-top: 0;
+
+
+}
+article {
+    background-color: lightgrey;
+    padding-bottom: 5px;
+
+}
+p {
+    margin-left: 5px;
+}
