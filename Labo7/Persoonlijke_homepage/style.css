@@ -1,0 +1,51 @@
+body{
+    font-family: "Bookman Old Style", sans-serif;
+    color: #275420;
+    background-color: #D9F4E0;
+    }
+header {
+
+    color: crimson;
+    font-family: Consolas, sans-serif;
+
+    }
+
+h2{
+    padding:10px 10px 250px 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-color: black;
+    border-style: groove;
+    background-image: url("../../foto/img_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    }
+a{
+    text-decoration-line: none;
+    color: #275420;
+    font-weight: bold;
+    }
+
+a:hover{
+    color: darkcyan;
+    }
+
+table{
+    border: black solid ;
+    width: 50%;
+    border-collapse: collapse;
+    padding: 1em;
+    table-layout: auto;
+    margin: 50px;
+    }
+
+col{
+    width: 5%;
+}
+
+th,td{
+    border: black solid;
+    text-align: center;
+}
