@@ -7,6 +7,24 @@
 <body>
 <a href="../index.html">Homepage</a>
 <hr>
-
+<h2>Waarom staat de tekst in de blokken horizontaal gecentreerd?</h2>
+<p>Omdat bij de div van de css staat text-align center.</p>
+<h2>Ga na dat een property vertical-align:center geen effect heeft. Waarom eigenlijk niet?</h2>
+<p>Het vertical-align: center; heeft geen direct effect in CSS, omdat er geen "center" waarde is voor vertical-align.</p>
+<p>baseline: Het element wordt uitgelijnd op de basislijn van de omliggende tekst.
+    top: Het element wordt uitgelijnd op de bovenste rand van de lijn.
+    bottom: Het element wordt uitgelijnd op de onderste rand van de lijn.
+    middle: Het element wordt uitgelijnd in het midden van de lijn.
+    zijn 4 waarden die je kan gebruiken.
+</p>
+<h2>Ga na dat vertical-align:middle er niet voor zorgt dat de tekst verticaal gecentreerd wordt. Wat doet vertical-align dan wel?</h2>
+<p>het zet alle blokjes mooi gencenterd naast elkaar staan dus mooi allemaal in het midden staan en de groter blokjes dan gewoon meer uitsteken boven en beneden van een denkbeeldige lijn.</p>
+<h2>Wat is de ‘simpele’ manier om een één enkele regel tekst verticaal te centreren? (tip:line-height)</h2>
+<p>De 'simpele' manier om een enkele regel tekst verticaal te centreren is door gebruik te maken van de line-height eigenschap. Je kunt de line-height gelijk maken aan de hoogte van het omliggende element. Dit zal de tekst verticaal centreren binnen dat element.</p>
+<h2>Welke truc wordt vaak gebruikt om meerdere regels verticaal te centreren? (tip: table cell)</h2>
+<p>Een veelgebruikte truc om meerdere regels tekst verticaal te centreren is het gebruik van tabelcellen (display: table-cell). Door een container in te stellen als een tabel en de inhoud ervan als een tabelcel, kun je de tekst verticaal centreren, zelfs als deze uit meerdere regels bestaat.</p>
+<p>In dit voorbeeld wordt de tekst binnen een element met de class .content verticaal gecentreerd, zelfs als het meerdere regels bevat. Door de container in te stellen als een tabel en de inhoud als een tabelcel, wordt de verticale centrering bereikt met behulp van vertical-align: middle.</p>
+<h2>In 'styles.css' staan twee verschillende CSS regels die de height instellen van een element met class="area tall". Waarom krijgt de regel voor class 'tall' voorrang?</h2>
+<p>In CSS krijgt de regel die later in het stylesheet wordt gedefinieerd voorrang als er conflicterende stijlregels zijn voor hetzelfde element.</p>
 </body>
 </html>
