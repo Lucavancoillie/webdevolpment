@@ -1,16 +1,64 @@
+body {
+    width: 95%;
+    margin: auto auto;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+h1,h2{
+    color: darkcyan;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+
+h2 {
+    font-size: 130%;
+}
+
+footer{
+    clear: both;
+    font-size: 70%;
+    text-align: center;
+}
+
+.links{
+    float: left;
+    width: 70%;
+
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover.hover{
+    color: sienna;
+}
+
 #rechts{
-    float: right;
-    box-sizing: border-box;
-    width: 30%;
+
     border: #00557F solid 1px;
     text-align: center;
     padding: 5px;
     background-image: url("../images/cocktail.gif");
     background-repeat: repeat-x;
+    box-sizing: border-box;
+    width: 30%;
+    float: right;
+
+}
+.black h1{
+    color: black;
+
 }
 
-#rechts h1{
-    margin-top: 50px;
+.black{
+    color: black;
 }
 
 .blauw{
@@ -22,52 +70,21 @@
 .paars{
     color: blueviolet;
 }
-#links{
-    float: left;
-    width: 70%;
-}
-#links h1,h2{
-    color: darkcyan;
-}
-
-footer{
-    clear: both;
-    font-size: 70%;
-    text-align: center;
-}
 
 IMG.centreren{
     display: block;
     margin: auto;
 
 }
-body{
-    font-family: "Arial", sans-serif;
-    font-size: 1.2em;
-    margin: auto;
-    width: 95%;
-}
-h1{
-    font-size: 150%;
-}
-h2{
-    font-size: 130%;
-}
-a{
-    text-decoration: underline;
-    color: black;
-}
-a:hover.hover{
-    color: #999934;
-}
 #guarantee{
-    text-indent: 25px;
+
     margin: 30px;
     padding: 20px;
-    color: rgb(44 44 44);
+    color: rgb(44, 44, 44);
     background-color: #a7cece;
-    border: 5px dotted white;
+    border: 5px white dotted;
     background-image: url("../images/background.gif");
     background-repeat: no-repeat;
     background-size: 50px;
+    padding-left: 75px;
 }
