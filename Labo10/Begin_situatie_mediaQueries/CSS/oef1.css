@@ -34,6 +34,25 @@ figcaption {
 }
 
 
-@media  {
-	
+@media (min-width: 768px)and (max-width: 992px) {
+	body{
+		background-color: indigo;
+
+	}
+	figure{
+		width: 30%;
+		display: inline-block;
+		margin-right: 30px;
+	}
+}
+
+@media (min-width: 992px){
+	body{
+		background-color: darkolivegreen;
+	}
+	figure{
+		width: 25%;
+		display: inline-block;
+		margin-right: 25px;
+	}
 }
