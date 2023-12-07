@@ -15,30 +15,30 @@ section div {
 /* specific item styles */
 
 .item-1 {
-    background: #b03532;
+    background: red;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
 }
 .item-2 {
-    background: #33a8a5;
+    background: cyan;
 }
 .item-3 {
-    background: #30997a;
+    background: darkslategrey;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
 }
 .item-4 {
-    background: #6a478f;
+    background: indigo;
 }
 .item-5 {
-    background: #da6f2b;
+    background: chocolate;
 }
 .item-6 {
-    background: #3d8bb1;
+    background: #4464a1;
     display: none;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -46,11 +46,11 @@ section div {
     grid-row-end: 5;
 }
 .item-7 {
-    background: #e03f3f;
+    background: red;
 
 }
 .item-8 {
-    background: #59a627;
+    background: #237F1C;
 
 }
 .item-9 {
