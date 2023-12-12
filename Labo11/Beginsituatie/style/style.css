@@ -1,0 +1,123 @@
+/* items */
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 10px;
+}
+section div {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* specific item styles */
+
+.item-1 {
+    background: red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.item-2 {
+    background: cyan;
+}
+.item-3 {
+    background: darkslategrey;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.item-4 {
+    background: indigo;
+}
+.item-5 {
+    background: chocolate;
+}
+.item-6 {
+    background: #4464a1;
+    display: none;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.item-7 {
+    background: red;
+
+}
+.item-8 {
+    background: #237F1C;
+
+}
+.item-9 {
+    background: #4464a1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+@media screen and (min-width: 761px){
+    section{
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+    .item-1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .tem-2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item-3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .tem-4{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .item-5{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .item-6{
+        display: grid;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .item-7{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .item-8{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .item-9{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
